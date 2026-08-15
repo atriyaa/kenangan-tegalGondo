@@ -5,7 +5,7 @@
                 <a href="{{ route('home') }}" class="flex items-center gap-3">
                     <!-- Logo Desa Tegalgondo -->
                     <div class="w-9 h-9 flex-shrink-0 rounded-full overflow-hidden border border-sage-muted/40 shadow-sm">
-                        <img src="{{ asset('storage/memories/logo.jpg') }}" 
+                        <img src="{{ asset('images/logo.jpg') }}" alt="Logo Desa Tegalgondo">
                             alt="Logo Desa Tegalgondo" 
                             class="w-full h-full object-cover">
                     </div>

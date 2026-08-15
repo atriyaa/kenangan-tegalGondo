@@ -30,7 +30,7 @@
         <div class="text-center mb-6">
             <!-- Logo Desa Tegalgondo di atas teks -->
             <div class="w-16 h-16 mx-auto mb-3 rounded-full overflow-hidden border-2 border-sage-muted/40 shadow-sm">
-                <img src="{{ asset('storage/memories/logo.jpg') }}" 
+                <img src="{{ asset('images/logo.jpg') }}" alt="Logo Desa Tegalgondo">
                      alt="Logo Desa Tegalgondo" 
                      class="w-full h-full object-cover">
             </div>

@@ -32,7 +32,7 @@
             <div class="p-5 border-b border-sage-muted/20 flex items-center gap-3">
                 <!-- Container Bulat Sempurna (Pangkas/Crop Pinggiran Gambar) -->
                 <div class="w-11 h-11 flex-shrink-0 rounded-full overflow-hidden border-2 border-sage-muted/40 shadow-sm">
-                    <img src="{{ asset('storage/memories/logo.jpg') }}" 
+                    <img src="{{ asset('images/logo.jpg') }}" 
                         alt="Logo Desa Tegalgondo" 
                         class="w-full h-full object-cover">
                 </div>
