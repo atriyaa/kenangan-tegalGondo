@@ -6,9 +6,10 @@
 <!-- Hero Section -->
 <section class="bg-gradient-to-b from-sage-light/40 to-bg-light py-12 border-b border-sage-light/50">
     <div class="max-w-7xl mx-auto px-4 text-center">
-        <h1 class="text-3xl md:text-4xl font-bold text-forest-dark mb-3">Selamat datang di Desa Tegalgondo</h1>
+        <h1 class="text-3xl md:text-4xl font-bold text-forest-dark mb-3">Bersama Mengabdi, Bersama Menginspirasi</h1>
         <p class="text-gray-600 max-w-2xl mx-auto text-sm md:text-base">
-            Arsip digital dokumentasi kegiatan, kenangan, dan kebersamaan warga serta volunteer Desa Tegalgondo.
+                Ruang dokumentasi perjalanan dan kenangan para volunteer dalam berbagi ilmu,
+                pengalaman, dan kebersamaan bersama masyarakat Desa Tegalgondo.
         </p>
     </div>
 </section>
@@ -17,8 +18,8 @@
 <section class="max-w-7xl mx-auto px-4 py-10">
     <div class="flex justify-between items-center mb-6">
         <div>
-            <h2 class="text-xl font-bold text-forest-dark">Kenangan Terbaru</h2>
-            <p class="text-xs text-gray-500">Aktivitas dan kegiatan terkini di desa</p>
+            <h2 class="text-xl font-bold text-forest-dark">Cerita Terbaru Kami</h2>
+            <p class="text-xs text-gray-500">Momen, kegiatan, dan pengalaman volunteer di Desa Tegalgondo</p>
         </div>
         <a href="{{ route('memories.index') }}" class="text-sm font-semibold text-forest-dark hover:underline">Lihat Semua →</a>
     </div>

@@ -16,7 +16,7 @@
         </div>
     @endif
 
-    <form action="{{ route('admin.members.store') }}" method="POST" class="space-y-4">
+    <form action="{{ route('admin.members.store') }}" method="POST" class="space-y-4" enctype="multipart/form-data">
         @csrf
 
         <div>
@@ -29,6 +29,18 @@
             <input type="text" name="jabatan" value="{{ old('jabatan') }}" placeholder="Contoh: Ketua Volunteer Desa" required class="w-full border border-gray-300 rounded-lg p-2 text-sm outline-none focus:ring-2 focus:ring-green-accent">
         </div>
 
+        <div class="mb-4">
+            <label for="foto" class="block text-sm font-medium text-gray-700 mb-1">Foto Profile</label>
+            <input 
+                type="file" 
+                name="foto" 
+                id="foto" 
+                accept="image/jpeg,image/png,image/jpg,image/webp" 
+                class="w-full border border-gray-300 rounded-lg p-2 text-sm"
+            >
+            <p class="text-xs text-gray-400 mt-1">Format disarankan: JPG, PNG, WEBP (Maksimal 10MB).</p>
+        </div>
+        
         <div>
             <label class="block text-sm font-medium text-gray-700 mb-1">Urutan Tampil *</label>
             <input type="number" name="urutan" value="{{ old('urutan', 1) }}" required class="w-full border border-gray-300 rounded-lg p-2 text-sm outline-none focus:ring-2 focus:ring-green-accent">
